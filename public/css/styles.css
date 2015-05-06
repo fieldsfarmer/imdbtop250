@@ -1,0 +1,244 @@
+@import url("http://fonts.googleapis.com/css?family=Bree+Serif|Merriweather");
+@import url("http://fonts.googleapis.com/css?family=Open+Sans");
+@import url("http://netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.css");
+/* line 5, ../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+/* line 22, ../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1; }
+
+/* line 24, ../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 26, ../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 28, ../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+/* line 30, ../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none; }
+  /* line 103, ../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+/* line 32, ../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none; }
+
+/* line 116, ../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+
+/* The following is mine.*/
+/* line 5, ../../sass/_baseOfImdb.scss */
+body {
+  font-family: Merriweather, serif;
+  color: #404040;
+  background-color: #f3f3f3; }
+
+/* line 11, ../../sass/_baseOfImdb.scss */
+.header {
+  margin-left: auto;
+  margin-right: auto;
+  float: none !important; }
+
+/* line 17, ../../sass/_baseOfImdb.scss */
+.clickable:hover {
+  cursor: pointer; }
+
+/* line 21, ../../sass/_baseOfImdb.scss */
+.genre {
+  background-color: #CCFFFF;
+  text-align: center;
+  color: #FF9933;
+  height: 20px;
+  vertical-align: middle; }
+
+/* line 29, ../../sass/_baseOfImdb.scss */
+.genre.active {
+  background-color: #6666FF; }
+
+/* line 33, ../../sass/_baseOfImdb.scss */
+li.genre {
+  vertical-align: middle;
+  line-height: 30px;
+  font: Bree Serif, serif; }
+
+/* line 39, ../../sass/_baseOfImdb.scss */
+.galleryAnimate {
+  width: 100%;
+  -webkit-transition: width 3s;
+  /* For Safari 3.1 to 6.0 */
+  transition: width 3s; }
+
+/* line 45, ../../sass/_baseOfImdb.scss */
+.galleryAnimate:hover {
+  width: 90%; }
+
+/* line 49, ../../sass/_baseOfImdb.scss */
+.ggg {
+  margin-top: 20px; }
+
+/* line 53, ../../sass/_baseOfImdb.scss */
+.genre:hover {
+  cursor: pointer; }
+
+/* line 57, ../../sass/_baseOfImdb.scss */
+.search {
+  width: 400px;
+  background-color: #00CCFF; }
+
+/* line 62, ../../sass/_baseOfImdb.scss */
+.searchResult {
+  width: 400px; }
+
+/* line 66, ../../sass/_baseOfImdb.scss */
+.searchInput {
+  margin-top: 20px;
+  height: 40px;
+  font-size: 30px;
+  font-family: Bree Serif, serif;
+  color: #00CF84;
+  width: 70%; }
+
+/* line 75, ../../sass/_baseOfImdb.scss */
+#sort {
+  float: left;
+  margin-left: 15%;
+  font-family: Bree Serif, serif;
+  margin-bottom: 2px; }
+
+/* line 82, ../../sass/_baseOfImdb.scss */
+.select {
+  font-family: Bree Serif, serif;
+  float: left;
+  margin-top: 2px;
+  margin-left: 15%;
+  width: 70%; }
+
+/* line 90, ../../sass/_baseOfImdb.scss */
+form#myForm {
+  float: left;
+  padding-left: 15%; }
+
+/* line 94, ../../sass/_baseOfImdb.scss */
+.inputRadio {
+  width: 20px; }
+
+/* line 98, ../../sass/_baseOfImdb.scss */
+.movieList {
+  background-color: #FFCC99;
+  height: 180px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  border-bottom: 1px;
+  border-bottom-style: dotted;
+  -webkit-transition: height 4s width 3s;
+  /* For Safari 3.1 to 6.0 */
+  transition: height 4s width 3s; }
+
+/* line 111, ../../sass/_baseOfImdb.scss */
+.movieList:hover {
+  height: 200px;
+  width: 650px; }
+
+/* line 116, ../../sass/_baseOfImdb.scss */
+.info {
+  margin: 20px;
+  font-family: Bree Serif, serif;
+  float: left; }
+
+/* line 122, ../../sass/_baseOfImdb.scss */
+.paragraph {
+  margin: 10px;
+  float: left; }
+
+/* line 127, ../../sass/_baseOfImdb.scss */
+.p2 {
+  color: red; }
+
+/* line 131, ../../sass/_baseOfImdb.scss */
+.thumb {
+  float: left;
+  margin: 20px;
+  height: 150px;
+  width: 100px; }
+
+/* line 138, ../../sass/_baseOfImdb.scss */
+.arrow {
+  margin-top: 20px;
+  background-color: #FFCC99;
+  height: 20px; }
+
+/* line 144, ../../sass/_baseOfImdb.scss */
+.detail {
+  /*margin-top: 20px;*/
+  background-color: #FFCC99;
+  height: 500px;
+  /*overflow: hidden;*/ }
+
+/* line 151, ../../sass/_baseOfImdb.scss */
+#leftGo {
+  float: left;
+  margin-left: 20px; }
+
+/* line 156, ../../sass/_baseOfImdb.scss */
+#rightGo {
+  float: right;
+  margin-right: 20px; }
+
+/* line 161, ../../sass/_baseOfImdb.scss */
+.detailImg {
+  width: 100%;
+  margin-top: 30px;
+  margin-left: 60px;
+  /*margin-right: auto;*/
+  /*width: 200px;*/ }
+
+/* line 169, ../../sass/_baseOfImdb.scss */
+.Idontkonw {
+  /*width: 100%;*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+/* line 176, ../../sass/_baseOfImdb.scss */
+.detailInfo {
+  font-family: Bree Serif, serif;
+  /*margin-left: 20px;*/
+  padding-top: 40px;
+  margin-top: 0px;
+  text-align: left;
+  padding-right: 5px;
+  background-color: #FFCC99;
+  padding-bottom: 10px; }

@@ -1,0 +1,1 @@
+$(document).ready(function(){$(window).scroll(function(){var a=$(window).scrollTop();a>0?($("#nav-bar").animate({height:"60px"},30),$(".title").animate({fontSize:"16px"},30)):($("#nav-bar").animate({height:"80px"},30),$(".title").animate({fontSize:"24px"},30))}),$(document).foundation({orbit:{animation:"fade"}})});
